@@ -21,6 +21,7 @@ public class Test {
         }
     }
 
+    public void readAllAnswersFromFile(String filename) {
         try {
             String path = "C:/Users/fahre/source/repos/test-for-students/TEST project/test/" + filename;
             BufferedReader reader = new BufferedReader(new FileReader(path));
